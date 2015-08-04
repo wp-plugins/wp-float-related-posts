@@ -48,6 +48,6 @@
 		<?php endforeach; ?>
 		</div>
 	</div>
-	<div class="rp-popup-credits">powered by <a href="" target="_blank">RelatedPosts</a></div>
+	<div class="rp-popup-credits">powered by <a href="https://wordpress.org/plugins/wp-float-related-posts/" target="_blank">RelatedPosts</a></div>
 	</div>
 </div>
