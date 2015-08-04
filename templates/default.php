@@ -38,7 +38,10 @@
 				</a>
 				<div class="rp-snippet">
 					<div class="rp-snippet-text">
-						<?php echo mb_substr(strip_tags($relatedpost->post_content),0,145,'utf-8').'...'; ?>
+						<?php 
+							$links_regex = "@(https?://([-\w\.]+[-\w])+(:\d+)?(/([\w/_\.#-]*(\?\S+)?[^\.\s])?).*$)@";
+							echo mb_substr( strip_tags( preg_replace( $links_regex, '', $relatedpost->post_content ) ), 0, 145, 'utf-8' ) . '...'; 
+						?>
 					</div>
 					<div class="text-right">
 						<a href="<?php echo $permalink; ?>" class="rp-more-link"><?php echo get_option('rp-read-more-text'); ?></a>
