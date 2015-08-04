@@ -39,8 +39,8 @@
 				<div class="rp-snippet">
 					<div class="rp-snippet-text">
 						<?php 
-							$links_regex = "@(https?://([-\w\.]+[-\w])+(:\d+)?(/([\w/_\.#-]*(\?\S+)?[^\.\s])?).*$)@";
-							echo mb_substr( strip_tags( preg_replace( $links_regex, '', $relatedpost->post_content ) ), 0, 145, 'utf-8' ) . '...'; 
+							//$links_regex = "@(https?://([-\w\.]+[-\w])+(:\d+)?(/([\w/_\.#-]*(\?\S+)?[^\.\s])?).*$)@";
+							echo mb_substr( strip_tags( $relatedpost->post_content ), 0, 145, 'utf-8' ) . '...'; 
 						?>
 					</div>
 					<div class="text-right">
