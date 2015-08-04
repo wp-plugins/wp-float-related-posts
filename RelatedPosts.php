@@ -2,7 +2,7 @@
 /*
 Plugin Name: WP RelatedPosts
 Description: Display related posts by taxonomy, and increasing your pageviews by user
-Version: 1.0.2
+Version: 1.0.3
 Author: Darko Atanasovski
 Author URI: http://atanasovsky.wordperss.com
 */
