@@ -2,7 +2,7 @@
 /*
 Plugin Name: WP RelatedPosts
 Description: Display related posts by taxonomy, and increasing your pageviews by user
-Version: 1.0.7
+Version: 1.0.8
 Author: Darko Atanasovski
 Author URI: http://atanasovsky.wordperss.com
 */
@@ -79,7 +79,7 @@ class RelatedPosts{
 		$posts_num		= count( $relatedposts );
 		if( is_single() && count( $tags ) > 0 )
 		{	
-			if( get_option('rp-show-random') == 1 && $posts_num < 3 && $posts_num >= 0 )
+			if( get_option('rp-show-random') == 1 && $posts_num < 3 )
 			{
 				$excluded_ids = array($post->ID);
 				foreach( $relatedposts as $relatedpost )
