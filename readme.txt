@@ -13,6 +13,7 @@ A wordpress plugin for increase pageviews by showing popup with related posts.
 == Description ==
 
 Best way to increase pageviews for wordpress website. Engage your users by clicking on related articles which are showed after reading the article. Easy to install and use, WP Float Relate Posts is the best way to customize popup box with related content.
+`[youtube https://www.youtube.com/watch?v=XQuuGMkq7ws]`
 
 == Changelog ==
 1.0 initial commit
@@ -30,4 +31,5 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 1. Plugin customization
 
 2. Frontend related posts
+
  `[youtube https://www.youtube.com/watch?v=XQuuGMkq7ws]`
