@@ -30,4 +30,4 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 1. Plugin customization
 
 2. Frontend related posts
- `[youtube https://www.youtube.com/watch?v=_Tm4P6X5Iug]`
+ `[youtube https://www.youtube.com/watch?v=XQuuGMkq7ws]`
