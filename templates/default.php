@@ -20,7 +20,7 @@
 		if( get_option('rp-gatracking') == 1 )
 		{
 			$tracking = array();
-			$tracking['utm_source'] 	= "WP Related Posts";
+			$tracking['utm_source'] 	= "WP Float Related Posts";
 			$tracking['utm_medium'] 	= "Popup Banner";
 			$tracking['utm_campaign'] 	= "wprp-" . date(dmY);
 			
