@@ -2,7 +2,7 @@
 /*
 Plugin Name: WP RelatedPosts
 Description: Display related posts by taxonomy, and increasing your pageviews by user
-Version: 1.1.0
+Version: 1.1.1
 Author: Darko Atanasovski
 Author URI: http://atanasovsky.wordperss.com
 */
@@ -133,6 +133,12 @@ class RelatedPosts{
 		}else{
 			update_option( 'rp-gatracking', 0 );
 		}
+		if( isset( $_POST[ 'rp-show-excerpt' ] ) )
+		{
+			update_option( 'rp-show-excerpt', 1 );
+		}else{
+			update_option( 'rp-show-excerpt', 0 );
+		}
 		wp_die();
 	}
 	public function activate() {
@@ -145,6 +151,7 @@ class RelatedPosts{
 		$config[ 'rp-read-more-text' ] 		= 'Read more';
 		$config[ 'rp-gatracking' ] 			= 1;
 		$config[ 'rp-show-random' ] 		= 1;
+		$config[ 'rp-show-excerpt' ]		= 1;
 		
 		foreach( $config as $key => $value )
 		{
@@ -153,7 +160,7 @@ class RelatedPosts{
 		}
 	}
 	public function deactivate() {
-		$config = array('rp-mode','rp-scrollpercent','rp-timeoutms','rp-title','rp-gatracking','rp-show-random','rp-effect');
+		$config = array('rp-mode','rp-scrollpercent','rp-timeoutms','rp-title','rp-gatracking','rp-show-random','rp-effect','rp-show-excerpt');
 		foreach( $config as $key )
 		{
 			delete_option( $key );

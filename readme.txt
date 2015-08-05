@@ -17,6 +17,7 @@ Best way to increase pageviews for wordpress website. Engage your users by click
 https://www.youtube.com/watch?v=XQuuGMkq7ws
 
 == Changelog ==
+1.1.1 Add excerpt option
 1.0 initial commit
 
 == Installation ==

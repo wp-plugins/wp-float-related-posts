@@ -59,6 +59,9 @@
 			<input type="checkbox" name="rp-gatracking"<?php echo esc_attr( get_option('rp-gatracking') )==1 ? ' checked="checked"' : ''; ?>> Track clicks in Google Analytics
 		</label>
 		<label class="selectit">
+			<input type="checkbox" name="rp-show-excerpt"<?php echo esc_attr( get_option('rp-show-excerpt') )==1 ? ' checked="checked"' : ''; ?>> Show excerpt instead
+		</label>
+		<label class="selectit">
 			<input type="checkbox" name="rp-show-random"<?php echo esc_attr( get_option('rp-show-random') )==1 ? ' checked="checked"' : ''; ?>> Show random posts when there aren't related posts
 		</label>
 		<div style="text-align:right;margin-top:15px">
