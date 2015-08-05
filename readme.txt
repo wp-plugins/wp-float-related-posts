@@ -1,6 +1,6 @@
 ﻿=== WP Float Related Posts ===
 Contributors: darko.atanasovski 
-Tags: plugin, related posts, related articles, seo
+Tags: plugin, related posts, related articles, seo, post, tag, effect, bounce rate, pageviews, engagement, similar, stories
 Requires at least: 3.7
 Tested up to: 4.2.3
 Stable tag: trunk
