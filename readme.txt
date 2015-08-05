@@ -1,5 +1,5 @@
 ﻿=== WP Float Related Posts ===
-Contributors: darko.atanasovski 
+Contributors: darko.atanasovski, milemilosheski
 Tags: plugin, related posts, related articles, seo, post, tag, effect, bounce rate, pageviews, engagement, similar, stories
 Requires at least: 3.7
 Tested up to: 4.2.3
