@@ -77,4 +77,5 @@
 		<img src="<?php echo plugins_url( '../img/box.png', __FILE__ ); ?>" alt="preview popup box" id="previewbox" class="previewbox animated <?php echo esc_attr( get_option('rp-effect') ); ?>">
 	</div>
 	<p class="infotext">Notifications are created with <a href="https://atanasovsky.wordpress.com/2015/07/19/web-notifications-for-better-user-experience/" target="_blank">NotifyJS</a></p>
+	<p class="infotext" style="font-size:12px">If you like <strong>WP Float Related Posts</strong> please leave us a <a href="https://wordpress.org/support/view/plugin-reviews/wp-float-related-posts?filter=5#postform" target="_blank" class="wc-rating-link" data-rated="Thanks :)">★★★★★</a> rating. A huge thank you from me in advance!</p>
 </div>
