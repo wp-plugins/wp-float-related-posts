@@ -2,8 +2,8 @@
 Contributors: darko.atanasovski, milemilosheski
 Tags: plugin, related posts, related articles, seo, post, tag, effect, bounce rate, pageviews, engagement, similar, stories
 Requires at least: 3.7
-Tested up to: 4.2.3
-Stable tag: trunk
+Tested up to: 4.3
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: http://atanasovsky.wordpress.com
